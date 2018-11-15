@@ -1,0 +1,6 @@
+[package]
+name = "auth"
+version = "0.1.0"
+authors = ["Peter East <petereast@pm.me>"]
+
+[dependencies]
