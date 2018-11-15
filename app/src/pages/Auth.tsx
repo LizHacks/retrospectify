@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import { testAuthAction } from '../actions/auth';
 
+import UserSession from '../components/UserSession';
+
 // TODO: FIx <any, any>
 class Auth extends React.PureComponent<any, any> {
   handleClick = () => {
@@ -13,6 +15,7 @@ class Auth extends React.PureComponent<any, any> {
     return (
       <div>
         <div>Auth here</div>
+        <UserSession/>
 
         <p>Something: {this.props.auth.something}</p>
 
